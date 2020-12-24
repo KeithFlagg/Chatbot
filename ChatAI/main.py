@@ -96,7 +96,7 @@ try:
 	keith.py
 except:
 	#number of training cycles
-	model.fit(training, output, n_epoch=1000, batch_size = 8, show_metric = True)
+	model.fit(training, output, n_epoch=2000, batch_size = 8, show_metric = True)
 	model.save("model.tflearn")
 
 def bag_of_words(s, words):
@@ -120,10 +120,9 @@ def chat():
 			break
 
 		results = model.predict([bag_of_words(inpt, words)])
-		print(results)
-		print("Results Index")
+	
 		results_index = numpy.argmax(results)	
-		print(results_index)
+		
 		#finds tag related to user input
 		tag = labels[results_index]
 
@@ -134,7 +133,7 @@ def chat():
 				if tg['tag'] == tag:
 					responses = tg['responses']
 
-			print(random.choice(responses))
+			print("Keithbot: " + random.choice(responses))
 
 		else: 
 			print("I couldn't understand what you typed. Please try again.")
