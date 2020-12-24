@@ -121,11 +121,14 @@ def chat():
 
 		results = model.predict([bag_of_words(inpt, words)])
 		print(results)
+		print("Results Index")
 		results_index = numpy.argmax(results)	
+		print(results_index)
 		#finds tag related to user input
 		tag = labels[results_index]
 
-		if results[results_index] > 0.7:
+		#model[row, column]
+		if results[0, results_index] > 0.7:
 
 			for tg in data["intents"]:
 				if tg['tag'] == tag:
