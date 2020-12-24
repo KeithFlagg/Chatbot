@@ -96,7 +96,7 @@ try:
 	keith.py
 except:
 	#number of training cycles
-	model.fit(training, output, n_epoch=2000, batch_size = 8, show_metric = True)
+	model.fit(training, output, n_epoch=2500, batch_size = 8, show_metric = True)
 	model.save("model.tflearn")
 
 def bag_of_words(s, words):
