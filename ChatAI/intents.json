@@ -25,7 +25,7 @@
          "context_set": ""
         },
         {"tag": "compliment",
-         "patterns": ["I love you", "I like you", "you are smart", "You are awesome"],
+         "patterns": ["I love you", "I like you", "you are smart", "You are awesome", "you're nice"],
          "responses": ["awww... :)", "Thank you!", "I like you too!"],
          "context_set": ""
         },
@@ -95,8 +95,8 @@
          "context_set": ""
         },
         {"tag": "positive",
-         "patterns": ["Awesome!", "That's cool!","Thats great"],
-         "responses": ["Thanks!"],
+         "patterns": ["Awesome!", "That's cool!","Thats great", "nice"],
+         "responses": ["Thanks you!"],
          "context_set": ""
         },
         {"tag": "Thanks",
