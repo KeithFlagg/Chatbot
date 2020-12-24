@@ -1,0 +1,11 @@
+#Keith Flagg
+#Python Chatbot AI
+
+---Technologies---
+install tensorflow, numpy, and nltk
+install python 3.6.12
+
+---What is this program?---
+This is a side project that demonstrates how to create a chat AI using machine learning. 
+Multiple hidden layers are used to generate a response based on the AI's confidence of what 
+the user is trying to say. The AI is trained by using tensorflow.
