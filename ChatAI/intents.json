@@ -96,7 +96,7 @@
         },
         {"tag": "positive",
          "patterns": ["Awesome!", "That's cool!","Thats great", "nice"],
-         "responses": ["Thanks you!"],
+         "responses": ["Thank you!"],
          "context_set": ""
         },
         {"tag": "Thanks",
@@ -105,7 +105,7 @@
          "context_set": ""
         },
         {"tag": "laugh",
-         "patterns": ["lmao", "lol"],
+         "patterns": ["lmao", "lol", "lmfao", "rofl"],
          "responses": ["XD", "lol :D"],
          "context_set": ""
         },
