@@ -46,7 +46,7 @@
         },
         {"tag": "AIhome",
          "patterns": ["Where are you from?", "Where do you live?"],
-         "responses": ["Your computer", "I come from lines of code"],
+         "responses": ["I live in your computer", "I come from lines of code"],
          "context_set": ""
         },
         {"tag": "userstatemad",
